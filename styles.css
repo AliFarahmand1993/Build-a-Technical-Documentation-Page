@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  color: #000000;
+  font-size: 1.8rem;
+  margin: 1.2rem;
+}
+#navbar {
+  position: fixed;
+  min-width: 18.5rem;
+  top: 0;
+  left: 0;
+  width: 18.75rem;
+  height: 100%;
+  border-right: solid;
+  border-color: #00161666;
+}
+#navbar a {
+  display: block;
+  padding: 0.8rem 2.2rem;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  position: relative;
+}
