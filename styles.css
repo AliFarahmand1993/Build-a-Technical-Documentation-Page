@@ -6,12 +6,17 @@ html,
 body {
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-size: 1rem;
 }
-header {
+/* navbar style */
+#navbar header {
   color: #000000;
   font-size: 1.8rem;
-  margin: 1.2rem;
+  margin: .9rem;
+  text-align: center;
 }
+
 #navbar {
   position: fixed;
   min-width: 18.5rem;
@@ -29,7 +34,6 @@ header {
   text-decoration: none;
   cursor: pointer;
 }
-
 #navbar ul {
   height: 88%;
   padding: 0;
@@ -40,4 +44,40 @@ header {
   color: #4d4e53;
   border-top: 1px solid;
   position: relative;
+}
+/* main section  style*/
+#main-doc {
+  position: absolute;
+  margin-left: 19rem;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+header {
+  color: #000000;
+  font-size: 1.8rem;
+  margin: 0.2rem;
+}
+p {
+  display: block;
+  margin: 0.9rem;
+  color: #4d4e53;
+  text-align: justify;
+}
+section {
+  margin: 1rem;
+}
+section ul {
+  margin: 1rem;
+}
+section li {
+  margin: 1.2rem 0 0 2.4rem;
+  font-size: 1rem;
+  color: #4d4e53;
+}
+code {
+  display: block;
+  border-radius: 0.3rem;
+  background-color: #f7f7f7;
+  margin: 1.2rem;
+  padding: 1.2rem;
 }
